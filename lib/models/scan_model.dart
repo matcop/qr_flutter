@@ -11,7 +11,7 @@ class ScanModel {
     this.tipo,
     @required this.valor,
   }) {
-    if (this.tipo.contains('http')) {
+    if (this.valor.contains('http')) {
       //DNTT
       this.tipo = 'http'; //buscar en la bd de la DNTT
     } else {

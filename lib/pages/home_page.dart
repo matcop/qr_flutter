@@ -40,7 +40,9 @@ class _HomePageBody extends StatelessWidget {
     //el valor de currentIndex es lo que se nesecita cambiar para la pagina q se elija
     final currentIndex = uiProvider.selectedMenuOpt;
 //TODO: temporal leer la base de datos
-    DBProvider.db.database;
+    //final tempScan = new ScanModel(valor: "http://www.universidad.com");
+    //DBProvider.db.nuevoScan(tempScan);
+    //DBProvider.db.getScanById(6).then((scan) => print(scan.valor));
 
     switch (currentIndex) {
       case 0:
